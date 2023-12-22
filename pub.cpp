@@ -6,7 +6,6 @@ Publisher::Publisher(const char* _id, const char* _host, int _port)
 {
 	host = std::string(_host);
 	port = _port;
-	mosq = nullptr;
 	mosqpp::lib_init();
 }
 
