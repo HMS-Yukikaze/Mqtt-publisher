@@ -67,5 +67,4 @@ private:
 protected:
 	std::string host;
 	int port;
-	struct mosquitto* mosq;
 };
